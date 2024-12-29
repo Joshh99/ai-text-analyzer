@@ -26,8 +26,8 @@ class TextAnalyzer:
         
         return sentiment_pipeline(texts)
 
-    def save_model(self, path: str):
-        pickle.dump(self.model, open(path, "wb"))
+    # def save_model(self, path: str):
+    #     pickle.dump(self.model, open(path, "wb"))
         
 if __name__ == "__main__":
     text_analyzer = TextAnalyzer(model_name="distilbert/distilbert-base-uncased-finetuned-sst-2-english")
