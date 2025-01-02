@@ -30,5 +30,5 @@ with st.container():
         else:
             st.warning("Please enter a text to analyze!")
 
-with open("data/model.pkl", "rb") as f:
-    model = pickle.load(f)
+# with open("data/model.pkl", "rb") as f:
+#     model = pickle.load(f)

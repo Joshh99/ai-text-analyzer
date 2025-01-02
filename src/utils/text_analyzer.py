@@ -29,12 +29,12 @@ class TextAnalyzer:
     # def save_model(self, path: str):
     #     pickle.dump(self.model, open(path, "wb"))
         
-if __name__ == "__main__":
-    text_analyzer = TextAnalyzer(model_name="distilbert/distilbert-base-uncased-finetuned-sst-2-english")
-    dataset = TextAnalyzer.load_dataset("imdb")
-    print(type(text_analyzer))
+# if __name__ == "__main__":
+#     text_analyzer = TextAnalyzer(model_name="distilbert/distilbert-base-uncased-finetuned-sst-2-english")
+#     dataset = TextAnalyzer.load_dataset("imdb")
+#     print(type(text_analyzer))
     
-    # Example usage
-    result = text_analyzer.sentiment_analysis("I love this movie!")
-    print(result[0]['label'])
-    text_analyzer.save_model("data/model.pkl")
+#     # Example usage
+#     result = text_analyzer.sentiment_analysis("I love this movie!")
+#     print(result[0]['label'])
+#     text_analyzer.save_model("data/model.pkl")
