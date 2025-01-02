@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st # type: ignore
 from utils.text_analyzer import TextAnalyzer
 import pickle
 

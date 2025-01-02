@@ -1,5 +1,5 @@
-from transformers import pipeline, AutoModelForSequenceClassification, AutoTokenizer
-from datasets import load_dataset
+from transformers import pipeline, AutoModelForSequenceClassification, AutoTokenizer  # type: ignore
+from datasets import load_dataset # type: ignore
 import pickle
 
 
