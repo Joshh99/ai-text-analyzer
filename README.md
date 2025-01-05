@@ -21,18 +21,3 @@ This Streamlit application analyzes text using OpenAI's API.
 2. Click "Analyze" to see the results
 
 
-
----------------------------
-git checkout -b feature/ui-development
-git add src/app.py
-git commit -m "Implement basic Streamlit interface"
-
-git checkout -b feature/openai-integration
-git add src/openai_utils.py src/text_analyzer.py
-git commit -m "Implement OpenAI API integration and text analysis functions"
-
-git add README.md
-git commit -m "Update README with setup instructions"
-
-git push origin feature/ui-development
-git push origin feature/openai-integration
